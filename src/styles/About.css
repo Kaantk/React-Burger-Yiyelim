@@ -1,0 +1,25 @@
+.about-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.about-container .container-body {
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1em;
+}
+
+.container-body .bg-img {
+    width: 100%;
+    height: 400px;
+    background-image: url("/assets/banneryeni.jpg");
+    background-size: cover; /* Resmi kaplamak için boyut ayarı */
+    background-repeat: no-repeat; /* Tekrar etmeme ayarı */
+    background-position: center; /* Resmi ortalamak için konum ayarı */
+    margin-bottom: 1em;
+}
+

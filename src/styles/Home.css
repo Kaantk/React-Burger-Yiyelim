@@ -1,0 +1,21 @@
+main {
+    height: 100vh;
+    background-image: url("/assets/banneryeni.jpg");
+    background-size: cover; /* Resmi kaplamak için boyut ayarı */
+    background-repeat: no-repeat; /* Tekrar etmeme ayarı */
+    background-position: center; /* Resmi ortalamak için konum ayarı */
+    position: relative;
+}
+
+button {
+    background-color: brown;
+    padding: 0.5em 1.5em;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 36px;
+    font-size: 18px;
+    position: absolute;
+    margin : 38em 0em 2em 2em
+}

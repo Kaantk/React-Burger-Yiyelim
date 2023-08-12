@@ -1,0 +1,33 @@
+header {
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 0em;
+}
+
+nav img {
+    height: 70px;
+    width: 122px;
+}
+
+nav .nav-menu {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .nav-menu a {
+    color: #fff;
+}
+
+nav .nav-menu a.active {
+    font-weight: 600;
+}

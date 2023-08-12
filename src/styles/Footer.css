@@ -1,0 +1,17 @@
+footer {
+    width: 100%;
+    background-color: brown;
+    margin-top: auto;
+    padding: 1em 0em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer p, footer svg {
+    color : #fff;
+}
+
+footer svg {
+    font-size: 28px;
+}
